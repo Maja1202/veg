@@ -1,0 +1,61 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f6f1e9ff;
+}
+header, footer {
+  background-color: rgba(74, 87, 20, 0.9);
+  color: white;
+  padding: 1em;
+  text-align: center;
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  background-color: #c7d5b4ff;
+  padding: 5em 1em;
+  text-align: center;
+}
+.hero h1 {
+  color: #4a5714ff;
+  font-size: 3em;
+  margin: 0;
+}
+.hero h1::after {
+  content: "🌿";
+  margin-left: 10px;
+}
+.container {
+  padding: 2em;
+}
+.products img {
+  max-width: 100%;
+  height: auto;
+  width: 30%;
+  margin: 1%;
+}
+.form-group {
+  margin-bottom: 1em;
+}
+input, textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+@media (max-width: 768px) {
+  .products img {
+    width: 100%;
+    margin: 0.5em 0;
+  }
+}
